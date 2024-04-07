@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.fragment.MainActivity">
+
+    <item
+        android:id="@+id/nav_home"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_home"
+        android:title="Home"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/nav_search"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_search"
+        android:title="Search"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/nav_settings"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_settings"
+        android:title="Settings"
+        app:showAsAction="never"/>
+
+
+    <item
+
+        android:id="@+id/nav_profile"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_profile"
+        android:title="Profile"
+        app:showAsAction="never" />
+</menu>
